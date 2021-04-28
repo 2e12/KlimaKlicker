@@ -27,6 +27,16 @@ function showFact(name) {
     document.getElementById('content').style.display = 'Block'
     document.getElementById('content-title').innerHTML = fact['title']
     document.getElementById('content-body').innerHTML = fact['body']
+
+    let list = document.createElement('ul')
+    for (var i = 0; i < fact['sources'].length; i++) {
+        let item = document.createElement('a');
+        item.appendChild(document.createTextNode(fact['sources'][i]));
+        item.href = fact['sources'][i]
+        list.appendChild(item);
+    }
+    document.getElementById('content-sources').innerHTML = list.innerHTML
+
 }
 
 function hideFact() {
