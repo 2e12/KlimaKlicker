@@ -4,11 +4,12 @@ body {
     font-family: 'IBM Plex Sans Condensed', sans-serif;
     font-size: 18px;
     font-weight: 300;
-    background: #173d51;
+    background: #384b63;
 }
 body, html{
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 .back-button, .title,.sources, .body, p{
@@ -45,6 +46,20 @@ body, html{
     text-align: center;
     color: white;
     cursor: pointer;
+}
+
+#scrollbox {
+    position: fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+#background {
+    height: 100%;
 }
 
 * {
