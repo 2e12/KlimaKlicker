@@ -33,6 +33,7 @@ function showFact(name) {
         let item = document.createElement('a');
         item.appendChild(document.createTextNode(fact['sources'][i]));
         item.href = fact['sources'][i]
+        item.target = '_blank'
         list.appendChild(item);
     }
     document.getElementById('content-sources').innerHTML = list.innerHTML
