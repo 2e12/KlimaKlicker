@@ -5,5 +5,20 @@
     "sources": [
       "https://www.tcs.ch/de/testberichte-ratgeber/ratgeber/elektromobilitaet/faq-elektromobilitaet.php"
     ]
+  },
+  "solar": {
+    "title": "Ökologisch Geld sparen",
+    "body": "<p>Wer möglichst ökologisch Energie gewinnen will, kann in eine Photovoltaikanlage investieren. Überschüssige Energie der Anlage kann sogar ins öffentliche Stromnetz eingespeist werden, wofür man sogar noch Geld erhalten kann. Die Investition amortisiert sich nach etwa 15 Jahren.</p><p>Eine Photovoltaikanlage hat eine erheblich bessere Klima Bilanz als Energien die mittels fossilen Energieträger gewonnen werden.\n</p>",
+    "sources": [
+      "https://www.solaranlage-ratgeber.de/photovoltaik/photovoltaik-planung/photovoltaik-vorteile-und-nachteile"
+    ]
+  },
+  "bath": {
+    "title": "Nichts für Warmduscher",
+    "body": "<p>Bereits 10 Minuten am Morgen warm Duschen, kann ohne Sparkopf bereits bis zu 10 Kg CO2 produzieren. Deshalb sollte man unbedingt prüfen ob man einen Sparkopf installiert hat. Dieser kann schon bis zu 50% des Wasserverbrauchs beim Duschen reduzieren. Des Weiteren ist es auch zu empfehlen, die tägliche Zeit unter der dusche zu reduzieren. Dies verbessert nicht nur die Klimabilanz, sondern schont schlussendlich auch das Portemonnaie.</p>",
+    "sources": [
+      "https://www.klimareporter.de/gesellschaft/das-duschen-bringts",
+      "https://www.heimwerker.de/strom-sparen/#Bonus_Klimaschutz_So_sparen_Sie_bis_zu_19_Kilo_CO2_an_einem_Arbeitstag"
+    ]
   }
 }
