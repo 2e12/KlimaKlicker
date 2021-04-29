@@ -11,6 +11,9 @@ window.onload = function () {
 }
 
 function setTriggers() {
+    document.getElementById('blacklayer').onclick = () => {
+        hideFact()
+    }
     let a = document.getElementById("background")
     let svgobj = a.contentDocument;
     for (let [key, value] of Object.entries(facts)) {
@@ -25,13 +28,14 @@ function setTriggers() {
 function showFact(name) {
     let fact = facts[name]
     document.getElementById('content').style.display = 'Block'
+    document.getElementById('blacklayer').style.display = 'Block'
     document.getElementById('content-title').innerHTML = fact['title']
     document.getElementById('content-body').innerHTML = fact['body']
 
     let list = document.createElement('ul')
     for (var i = 0; i < fact['sources'].length; i++) {
         let item = document.createElement('a');
-        item.appendChild(document.createTextNode(fact['sources'][i]));
+        item.appendChild(document.createTextNode(fact['sources'][i]))
         item.href = fact['sources'][i]
         item.target = '_blank'
         list.appendChild(item);
@@ -42,4 +46,5 @@ function showFact(name) {
 
 function hideFact() {
     document.getElementById('content').style.display = 'None'
+    document.getElementById('blacklayer').style.display = 'None'
 }
