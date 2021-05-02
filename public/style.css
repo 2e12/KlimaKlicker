@@ -41,7 +41,7 @@ body, html{
 #icons {
     position: absolute;
     z-index: 9;
-    bottom:0;
+    bottom:15px;
     left: 0;
     right: 0;
 }
