@@ -28,6 +28,7 @@ function setTriggers() {
 function showFact(name) {
     let fact = facts[name]
     document.getElementById('content').style.display = 'Block'
+    document.getElementById('content').scrollTop = 0
     document.getElementById('blacklayer').style.display = 'Block'
     document.getElementById('content-title').innerHTML = fact['title']
     document.getElementById('content-body').innerHTML = fact['body']
