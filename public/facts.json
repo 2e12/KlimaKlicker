@@ -6,6 +6,13 @@
       "https://www.tcs.ch/de/testberichte-ratgeber/ratgeber/elektromobilitaet/faq-elektromobilitaet.php"
     ]
   },
+  "bus": {
+    "title": "Bus & Bahn statt Auto",
+    "body": "<p>Es ist zu empfehlen, den täglichen Arbeitsweg mit dem öffentlichen Verkehr zurückzulegen. So spart man bis zu 95% der C02 Emissionen.</p><p>Nehmen wir als Beispiel die Strecke Biel/Bienne nach Bern. Mit dem Auto würde man bis zu 12 Kg CO2 ausstossen. Mit dem Zug sind es nur 0.1 Kg CO2. </p><p>Quelle: SBB Fahrplan -> Umweltrechner</p>",
+    "sources": [
+      "https://www.sbb.ch/de/kaufen/pages/fahrplan/fahrplan.xhtml"
+    ]
+  },
   "solar": {
     "title": "Ökologisch Geld sparen",
     "body": "<p>Wer möglichst ökologisch Energie gewinnen will, kann in eine Photovoltaikanlage investieren. Überschüssige Energie der Anlage kann sogar ins öffentliche Stromnetz eingespeist werden, wofür man sogar noch Geld erhalten kann. Die Investition amortisiert sich nach etwa 15 Jahren.</p><p>Eine Photovoltaikanlage hat eine erheblich bessere Klima Bilanz als Energien die mittels fossilen Energieträger gewonnen werden.\n</p>",
@@ -19,6 +26,51 @@
     "sources": [
       "https://www.klimareporter.de/gesellschaft/das-duschen-bringts",
       "https://www.heimwerker.de/strom-sparen/#Bonus_Klimaschutz_So_sparen_Sie_bis_zu_19_Kilo_CO2_an_einem_Arbeitstag"
+    ]
+  },
+  "heat": {
+    "title": "Umweltbewusst heizen",
+    "body": "<p>Selbst die energieeffizienteste Heizung bringt wenig wenn das Haus nur ungenügend isoliert ist, denn dann geht viel der kostbaren Wärme verloren. Zwei Drittel der Gebäude in der Schweiz werden mit fossilen Brennstoffen geheizt. Hier gibt es aber effizientere und auch günstigere Optionen, wie zum Beispiel eine Holzpellet-Heizung oder eine Wärmepumpe. Auch mit Solarpanels kann geheizt werden, diese sind aber vom Wetter abhängig und werden meist komplementär zu einem anderen Heizsystem verwendet.</p><p>Es kann aber auch mit einfacheren Mittel effizienter geheizt werden. Wenig benutzte Räume und Schlafzimmer müssen zum Beispiel nicht konstant auf 22 Grad geheizt werden. Mit jedem Grad Raumtemperatur erhöhen sich die Heizkosten um 6 Prozent.</p>",
+    "sources": [
+      "https://www.wwf.ch/de/unsere-ziele/gebaeudesanierung-und-heizsysteme",
+      "https://www.republik.ch/2021/02/22/unsere-klimabilanz-zerlegt-in-einzelteile",
+      "https://www.energieschweiz.ch/haushalt/heizen/"
+    ]
+  },
+  "air": {
+    "title": "Lüften macht den Unterschied",
+    "body": "<p>Richtiges Lüften ist besonders in den kalten Monaten wichtig, wenn geheizt wird. Durchgehend die Fenster gekippt zu lassen, ist sehr ineffizient, denn so geht ein Grossteil der durch die Heizung gemachten Wärme wieder verloren. Am Besten ist es, kurz zu stosslüften, dazu öffnet man mehrere Fenster und erzeugt dadurch einen Durchzug. So kann in kurzer Zeit viel frische Luft eindringen und nach einigen Minuten können die Fenster wieder geschlossen werden, wodurch weniger Energie verloren geht.</p>",
+    "sources": [
+      "https://www.umweltnetz-schweiz.ch/themen/energie/2650-effektiv-lueften.html"
+    ]
+  },
+  "eat": {
+    "title": "Die richtige Ernährung",
+    "body": "<p>Fleisch- und Milchprodukte belasten die Umwelt am meisten. Die Herstellung von Fleisch, Milch, Käse und Eiern ist in der Schweiz etwa für die Hälfte der Umweltbelastungen durch Ernährung verantwortlich. Die zweite Hälfte wird durch die Herstellung aller übrigen Nahrungs- und Genussmittel sowie deren Transport, Vertrieb und Verpackung verursacht. Allein die Produktion von einem Kilogramm Fleisch verbraucht 5 bis 20 Kilogramm Futter. Dementsprechend ist ein Mehrfaches an Fläche und Energie im Vergleich zu pflanzlichen Produkten nötig.</p><p>Stellt eine Schweizerin oder ein Schweizer mit durchschnittlichen Fleischkonsum auf vegetarische Ernährung um, reduziert sich der ökologische Fussabdruck der Ernährung um etwa 25 Prozent, bei Umstellung auf eine vegane Ernährung sogar um 35 bis 40 Prozent.</p>",
+    "sources": [
+      "https://www.wwf.ch/de/nachhaltig-leben/mein-fussabdruck-ernaehrung"
+    ]
+  },
+  "kitchen": {
+    "title": "Energiesparsam",
+    "body": "<p>Beim Kauf von elektronischen Geräten kann die im Europäischen Wirtschaftsraum geltende Energieverbrauchskennzeichnung beachtet werden. Diese ist in Energieeffizienzklassen von A bis G aufgeteilt. Dadurch kann sehr einfach das effizienteste Produkt erkannt werden.</p><p>Energieeffiziente Haushaltsgeräte belasten nicht nur die Umwelt weniger, sondern sind durch ihren geringeren Energieverbrauch auch günstiger für das Portmonnaie. Ausserdem ist es wichtig, ein für den Haushalt angemessenes Gerät zu kaufen. Bei einem zu grossen Gerät wird viel unnötige Energie verbraucht. Tiefkühlgeräte sollten in kalten Räumen stehen, da sonst auch diese mehr Energie verbrauchen können.</p>",
+    "sources": [
+      "https://www.energieschweiz.ch/haushaltsgeraete/kuehl-gefriergeraete/",
+      "https://www.energie-umwelt.ch/haushaltsgeraete"
+    ]
+  },
+  "tv": {
+    "title": "Woher stammt der Strom",
+    "body": "<p>In der Schweiz kann auf viele verschiedene Arten nachhaltig Strom erzeugt werden. Es werden bereits 57% des schweizer Stromverbrauchs durch Wasserkraftwerke abgedeckt. Im vergleich mit anderen Energiequellen verursachen Wasserkraftwerke am wenigsten Treibhausgase und am meisten Energie pro Kilowattstunde Strom. Ein weiterer Vorteil ist, dass Wasserkraftwerke dann einspringen können, wenn andere Energiequellen wie Wind oder Sonne nicht genügend Strom produzieren.</p>\n<p>Eine weitere Energiequelle ist der Wind. Mithilfe eines modernen Windrades kann ein Dorf mit etwa 2000 Haushalten versorgt werden. Es ist leise und braucht im Vergleich zu Solarstrom viel weniger Platz. </p>\n<p>Aber auch Solarstrom ist eine effiziente Option um Strom zu gewinnen. Solarstrom könnte den ganzen jährlichen Stromverbrauch der Schweiz abdecken. Sonnenenergie kann ausserdem auch für die Heizung oder für Warmwasser verwendet werden. </p>\n<p>Beim Stromanbieter kann Strom aus solchen erneuerbaren Quellen bestellt werden. Bei elektronischen Geräten wie Fernsehern kann auch auf Energieverbrauchskennzeichnug geachtet werden, und so ein effizienteres und umweltfreundlicheres Modell ausgewählt werden.</p>\n",
+    "sources": [
+      "https://www.bfs.admin.ch/bfs/de/home/statistiken/energie.assetdetail.13667566.html",
+      "https://www.energieschweiz.ch/erneuerbare-energien/solarenergie/",
+      "https://www.energieschweiz.ch/erneuerbare-energien/windenergie/",
+      "https://www.energieschweiz.ch/erneuerbare-energien/wasserkraft/",
+      "https://www.energieschweiz.ch/erneuerbare-energien/holzenergie/",
+      "https://www.energieschweiz.ch/erneuerbare-energien/biomasse/",
+      "https://www.energieschweiz.ch/erneuerbare-energien/erdwaerme/",
+      "https://www.energieschweiz.ch/erneuerbare-energien/fernwaerme/"
     ]
   }
 }
