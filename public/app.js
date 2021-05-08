@@ -7,6 +7,7 @@ window.onload = function () {
         facts = data
         hideFact()
         setTriggers()
+        showFact('welcome')
     })
 }
 
@@ -18,9 +19,11 @@ function setTriggers() {
     let svgobj = a.contentDocument;
     for (let [key, value] of Object.entries(facts)) {
         obj = svgobj.getElementById('trigger-' + key)
-        obj.style.cursor = "Pointer"
-        obj.onclick = () => {
-            showFact(key)
+        if(typeof(obj) != 'undefined' && obj != null) {
+            obj.style.cursor = "Pointer"
+            obj.onclick = () => {
+                showFact(key)
+            }
         }
     }
 }

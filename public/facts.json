@@ -1,4 +1,11 @@
 {
+  "welcome": {
+    "title": "KlimaKlicker",
+    "body": "<p>Informiere Dich jetzt, wie Du ganz leicht deine Klimabilanz im Alltag verbessern kannst!</p><p>Diese Webseite zeigt ein Querschnitt eines Hauses. Klicke auf die einzelnen Bereiche, um zu erfahren, was diese Teile für einen Einfluss auf das Klima haben und wie man dort die Klimabilanz verbessern kann.</p><p>© Noah Gysin, Gabriel Beutler 2021</p>",
+    "sources": [
+      "https://github.com/2e12/KlimaKlicker"
+    ]
+  },
   "car": {
     "title": "E-Auto statt Verbrenner",
     "body": "<p>Ein E-Auto bietet gegenüber einem herkömmlichen Verbrenner eine deutlich besser Klima Bilanz. So kommt ein Mittelklasse E-Auto am Ende seiner Laufzeit auf 30 Tonnen Treibhausgase.</p><p>Ein vergleichbares Benzin Auto kommt auf das fast doppelte. Die Klimabilanz ist jedoch sehr stark davon abhängig, woher der Strom kommt. So haben E-Autos in der Schweiz eine sehr gute Klimabilanz, da bereits Heute ein grossteil der Energie aus erneuerbaren Quellen stammt. Du kannst von deiner Gemeinde eine Zusammenfassung bekommen, woher deine Energie stammt, um zu überprüfen, ob dann ein potentielles E-Auto auch Öko Strom versorgt wird.</p>",
