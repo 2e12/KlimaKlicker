@@ -1,7 +1,7 @@
 let facts = {}
 
 window.onload = function () {
-    fetch('./facts.json')
+    fetch('/static/facts.json')
     .then(response => response.json())
     .then( (data) => {
         facts = data

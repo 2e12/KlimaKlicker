@@ -1,0 +1,1 @@
+{"id":"608a2249-d42f-40f2-9e1a-691533cfa97a","space":1818,"runtime":"python3.7","name":"KlimaKlicker","path":"26mvag","project":"a0v6qnc8","account":"144798365827","region":"eu-central-1","deps":["fastapi==0.66.0","pydantic==1.8.2","starlette==0.14.2","typing-extensions==3.10.0.0","aiofiles==0.7.0"],"envs":null,"public":true,"log_level":"debug","cron":""}
