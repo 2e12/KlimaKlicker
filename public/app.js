@@ -7,7 +7,7 @@ window.onload = function () {
         facts = data
         hideFact()
         setTriggers()
-        showFact('welcome')
+        showFact('welcome', 'Start')
     })
 }
 
@@ -28,13 +28,14 @@ function setTriggers() {
     }
 }
 
-function showFact(name) {
+function showFact(name, button_text="Zurück") {
     let fact = facts[name]
     document.getElementById('content').style.display = 'Block'
     document.getElementById('content').scrollTop = 0
     document.getElementById('blacklayer').style.display = 'Block'
     document.getElementById('content-title').innerHTML = fact['title']
     document.getElementById('content-body').innerHTML = fact['body']
+    document.getElementById('back-button').innerText = button_text
 
     let list = document.createElement('ul')
     for (var i = 0; i < fact['sources'].length; i++) {
