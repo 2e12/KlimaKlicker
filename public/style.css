@@ -72,6 +72,7 @@ body, html{
 }
 .button{
     max-width: 250px;
+    width: 100%;
     margin: 0 auto;
     padding: 12px;
     border-radius: 6px;
@@ -79,6 +80,7 @@ body, html{
     text-align: center;
     color: white;
     cursor: pointer;
+    text-decoration: none;
 }
 
 #content-sources a{
@@ -114,4 +116,9 @@ hr {
 
 * {
     box-sizing: border-box;
+}
+
+.center-box {
+    text-align: center;
+    color: white;
 }
